@@ -25,21 +25,21 @@
 
 Итоговая таблица всех соединений
 №	Откуда	Куда	Провод
-1	OBD-II	ELM327	Разъём 16-pin
-2	ELM327	HC-05	Bluetooth
-3	HC-05 TX	Arduino D10	UART
-4	HC-05 RX	Arduino D11	UART
-5	HC-05 VCC	Arduino 5V	Питание
-6	HC-05 GND	Arduino GND	Земля
-7	DFPlayer RX	Arduino D3	UART
-8	DFPlayer TX	Arduino D2	UART
-9	DFPlayer VCC	Arduino 5V	Питание
-10	DFPlayer GND	Arduino GND	Земля
-11	SD CS	Arduino D4	SPI
-12	SD MOSI	Arduino D11	SPI
-13	SD MISO	Arduino D12	SPI
-14	SD SCK	Arduino D13	SPI
-15	SD VCC	Arduino 5V	Питание
-16	SD GND	Arduino GND	Земля
-17	Динамик +	DFPlayer SPK_1	Аудио
-18	Динамик −	DFPlayer SPK_2	Аудио
+1.	OBD-II	ELM327	Разъём 16-pin
+2.	ELM327	HC-05	Bluetooth
+3.	HC-05 TX	Arduino 6
+4.	HC-05 RX	Arduino 7
+5.	HC-05 VCC	Arduino 5V	Питание
+6.	HC-05 GND	Arduino GND	Земля
+7.	DFPlayer RX	Arduino 2 резистор 1 кОм
+8.	DFPlayer TX	Arduino 3
+9.	DFPlayer VCC	Arduino 5V	Питание
+10.	DFPlayer GND	Arduino GND	Земля
+11.	SD CS	Arduino D4	SPI
+12.	SD MOSI	Arduino D11	SPI
+13.	SD MISO	Arduino D12	SPI
+14.	SD SCK	Arduino D13	SPI
+15.	SD VCC	Arduino 5V	Питание
+16.	SD GND	Arduino GND	Земля
+17.	Динамик +	DFPlayer SPK_1	Аудио
+18.	Динамик −	DFPlayer SPK_2	Аудио
